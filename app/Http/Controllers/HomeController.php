@@ -23,6 +23,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+       $suppliers = \DB::table('suppliers')->count();
+       $orders = \DB::table('orders')->count();
+       $products = \DB::table('products')->count();
+        return view('home')
+        ->with('suppliers',$suppliers)
+        ->with('orders',$orders)
+        ->with('products',$products);
     }
 }

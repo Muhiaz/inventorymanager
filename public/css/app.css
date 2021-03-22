@@ -14137,7 +14137,47 @@ a.text-muted:hover {
 .elevation-5 {
   -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
           box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-}/*!
+}.text-blue {
+  color: #3490dc;
+}
+
+.text-indigo {
+  color: #6574cd;
+}
+
+.text-purple {
+  color: #9561e2;
+}
+
+.text-pink {
+  color: #f66D9b;
+}
+
+.text-red {
+  color: #e3342f;
+}
+
+.text-orange {
+  color: #f6993f;
+}
+
+.text-yellow {
+  color: #ffed4a;
+}
+
+.text-green {
+  color: #38c172;
+}
+
+.text-teal {
+  color: #4dc0b5;
+}
+
+.text-cyan {
+  color: #6cb2eb;
+}
+
+/*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
@@ -32280,5 +32320,48 @@ readers do not read off random characters that represent icons */
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.router-link-exact-active {
+  background-color: blue;
+  color: #fff;
+}
+
+.router-link-exact-active:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.mt-3 {
+  width: 100%;
+}
+
+.card2 {
+  height: 160px !important;
+  padding: 20px;
+  background-color: #f6993f;
+}
+
+.card3 {
+  height: 160px !important;
+  padding: 20px;
+  background-color: #f66D9b;
+}
+
+.card1 {
+  height: 160px !important;
+  padding: 20px;
+  background-color: #38c172;
+}
+
+.card1,
+.card2,
+.card3,
+.i {
+  font-size: 40px;
+}
+
+h5 {
+  font-weight: bold;
 }
 

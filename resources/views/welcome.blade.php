@@ -87,7 +87,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Inventory manager
+                    Point of sale.
                 </div>
 
                
